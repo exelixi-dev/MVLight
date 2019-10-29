@@ -1,0 +1,32 @@
+{
+  "name": "exelixi/mvlight",
+  "description": "Simple MVC micro-framework in PHP that help you to write web applications",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Cosmin Fane Cozma",
+      "email": "cozmacosmin1992@gmail.com"
+    }
+  ],
+  "keywords": [
+    "MVC",
+    "framework",
+    "php",
+    "micro",
+    "Web Application"
+  ],
+  "autoload": {
+    "psr-4": {
+      "MVLight\\": "MVLight",
+      "MVLight\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "require": {
+    "php": "^7.3"
+  }
+}
