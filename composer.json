@@ -18,10 +18,9 @@
     "Web Application"
   ],
   "autoload": {
-    "psr-4": {
-      "MVLight\\": "MVLight",
-      "MVLight\\Tests\\": "tests"
-    }
+    "classmap": [
+      "MVLight/"
+    ]
   },
   "require-dev": {
     "phpunit/phpunit": "^8"
